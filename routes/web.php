@@ -27,7 +27,7 @@ Route::get('/students/restore/{student}','StudentsController@restore');
 Route::get('/students/hapus_permanen/{student}','StudentsController@hapus_permanen');
 Route::get('/students/hapus_permanen','StudentsController@hapus_permanen_all');
 // Route::post('/students/upload','StudentsController@upload');
-
+Route::get('/login','LoginController@index');
 //Student
 // Route::get('/students','StudentsController@index');
 // Route::get('/students/create','StudentsController@create');
